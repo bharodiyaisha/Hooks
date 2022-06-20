@@ -28,12 +28,9 @@ function App() {
           <Route path="/callback" element={<Callback />} />
           <Route path="/context" element={<ComA />} />
           <Route path="/test" element={<Test />} />
-
-
           <Route element={<Error />} />
         </Routes>
       </BrowserRouter>
-      {/* <Test /> */}
     </div>
   );
 }

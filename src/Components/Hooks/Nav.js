@@ -15,7 +15,6 @@ const Nav = () => {
             <Link to={"/memo"}>UseMemo</Link>
             <Link to={"/callback"}>UseCallback</Link>
             <Link to={"/test"}>React.memo</Link>
-
             <Link to={"/params/Isha"}>UseParams</Link>
           </ul>
         </div>
